@@ -4,7 +4,7 @@
 
 > In this project, I build a website for a fictional company (Global Travel Agency) by following a given design.
 
-![home](https://user-images.githubusercontent.com/9049260/124120950-9e30ec80-da74-11eb-995e-f3e4063642df.png)
+![screenshothome](https://user-images.githubusercontent.com/9049260/124177004-f33e2400-daaf-11eb-9a56-4b92b1a71b69.png)
 
 ## Built With
 
