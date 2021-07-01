@@ -31,7 +31,6 @@
 ## Acknowledgments
 
 This project was built based on the Original design idea by [Cindy Shin](https://www.behance.net/adagio07) in Behance.
-
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
