@@ -31,7 +31,10 @@ body {
   margin-bottom: 30px;
 }
 
-.main-navigation,
+.main-navigation {
+  display: none;
+}
+
 .company-logo,
 .company-logo-about,
 .main-navigation-about {
@@ -394,6 +397,7 @@ body {
 .partner-header {
   font-size: smaller;
   margin-bottom: 10px;
+  color: #8c8c8e;
 }
 
 .partner-logo {
@@ -407,18 +411,12 @@ body {
 .logo-group-1 {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   align-items: center;
-  width: 100vw;
-  margin-top: 20px;
-}
-
-.logo-group-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 70vw;
-  align-self: center;
+  width: 65vw;
+  margin-top: 8px;
+  color: #8c8c8e;
 }
 
 footer {
@@ -442,27 +440,25 @@ footer {
 }
 
 .logo--1 {
-  color: rgb(91, 241, 77);
   font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo--2 {
-  color: rgb(214, 214, 22);
   font-size: 1.4rem;
+  opacity: 0.7;
 }
 
 .logo--3 {
-  color: rgb(104, 104, 230);
   font-size: 1.2rem;
+  font-family: "cocogoose", sans-serif;
 }
 
 .logo--4 {
-  color: #ec5242;
   font-size: 1.4rem;
 }
 
 .logo--5 {
-  color: rgb(219, 184, 184);
   font-size: 1.4rem;
 }
 
@@ -610,9 +606,11 @@ footer {
   }
 
   .main-navigation {
-    display: block;
+    display: flex;
+    visibility: visible;
     margin-top: 24px;
     margin-bottom: 3px;
+    margin-right: 11%;
   }
 
   .company-logo-about,
@@ -631,15 +629,11 @@ footer {
   .company-logo {
     margin-top: 28px;
     margin-bottom: 3px;
-  }
-
-  .border-to-link {
-    border: 5px solid #ec5242;
-    padding: 5px;
+    margin-left: 100px;
   }
 
   .header {
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #fff;
     position: fixed;
@@ -655,7 +649,6 @@ footer {
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
-    margin-right: 15%;
   }
 
   .navigation-list:nth-child(2) {
@@ -670,6 +663,12 @@ footer {
     text-decoration: none;
     color: #272a31;
     font-size: 14px;
+  }
+
+  #border-to-link {
+    border: 5px solid #ec5242;
+    padding: 5px;
+    color: #ec5242;
   }
 
   .navigation-list li a:hover {
@@ -766,8 +765,7 @@ footer {
   }
 
   .partner-header {
-    font-size: 1rem;
-    margin-top: -20px;
+    font-size: 1.5rem;
   }
 
   .line-hidden {
