@@ -679,6 +679,7 @@ footer {
   .company-logo-about {
     height: 50px;
     display: block;
+    margin-left: 10%;
   }
 
   .home {
