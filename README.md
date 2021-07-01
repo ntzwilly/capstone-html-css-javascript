@@ -4,7 +4,7 @@
 
 > In this project, I build a website for a fictional company (Global Travel Agency) by following a given design.
 
-![home-desktop](https://user-images.githubusercontent.com/9049260/124018437-24ebb800-d9e8-11eb-8dbd-b21724d97c61.png)
+![home](https://user-images.githubusercontent.com/9049260/124120950-9e30ec80-da74-11eb-995e-f3e4063642df.png)
 
 ## Built With
 
@@ -26,6 +26,7 @@
 ## Presentation Video
 
 - Youtube: [@capstone-html-css-javascript](https://youtu.be/Wp37aaLgkA0)
+- Youtube: [@capstone-code-highlight](https://youtu.be/VIfEV4Yvo98)
 
 ## Acknowledgments
 
