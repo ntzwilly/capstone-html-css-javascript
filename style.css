@@ -592,13 +592,13 @@ footer {
     justify-content: flex-end;
     align-items: center;
   }
-  
+
   .top-navigation-list {
     display: flex;
     margin-right: 10%;
     list-style-type: none;
   }
-  
+
   .top-navigation,
   .top-navigation-list a {
     text-decoration: none;
@@ -614,14 +614,14 @@ footer {
     margin-top: 24px;
     margin-bottom: 3px;
   }
-  
+
   .company-logo-about,
   .main-navigation-about {
     margin-top: 0;
   }
 
   .main-navigation-about {
-    display: block
+    display: block;
   }
 
   .top-nav-text {
