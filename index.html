@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Global Travel Agency</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="top-navigation">
+        <ul class="top-navigation-list">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a class="top-nav-text" href="#">English</a></li>
+          <li><a class="top-nav-text" href="#">My Page</a></li>
+          <li><a class="top-nav-text" href="#">Logout</a></li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <img
+        class="company-logo"
+        src="images/company_logo.png"
+        alt="company-logo"
+      />
+      <nav class="main-navigation">
+        <ul class="navigation-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a id="border-to-link" href="#">News</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home">
+        <h2 class="header-secondary">"Welcome to Global Travel Agency"</h2>
+        <h1 class="header-primary">WE PROVIDE ONLY THE BEST TOURS</h1>
+        <div class="heading">
+          <p class="paragraph-header">
+            Global Travel Agency makes booking your Individual Services and
+            Products easy for you. We have been focusing on efficiency and
+            expertise to make bookings in the world affordable for you.
+          </p>
+        </div>
+        <h2 class="promotion">2021.08.01(THU) ~ 6(FRI)</h2>
+        <p>@Our Anniversary special Offer</p>
+      </section>
+      <section class="program">
+        <h2 class="program-header">Products & Services</h2>
+        <hr class="line" />
+        <div class="program-content">
+          <div class="content">
+            <div class="icon"><i class="fas fa-plane-departure"></i></div>
+            <h2>Flight Reservations</h2>
+            <p>
+              Global Travel offers cost effective flight reservations to all
+              destinations.
+            </p>
+          </div>
+          <div class="content">
+            <div class="icon"><i class="fas fa-car-alt"></i></div>
+            <h2>Car Hire</h2>
+            <p>
+              Global Travel is an agent for a number of internationally
+              recognized car rental companies.
+            </p>
+          </div>
+          <div class="content">
+            <div class="icon"><i class="fas fa-truck"></i></div>
+            <h2>Delivery service</h2>
+            <p>
+              Global Travel delivers airline tickets and itinerary travel
+              documents, free of charge, to its customers.
+            </p>
+          </div>
+          <div class="content">
+            <div class="icon"><i class="fas fa-passport"></i></div>
+            <h2>Visas</h2>
+            <p>
+              Global Travel has a department which offers professional and
+              timeous visa services.
+            </p>
+          </div>
+          <div class="content">
+            <div class="icon"><i class="fas fa-user-tag"></i></div>
+            <h2>Specials</h2>
+            <p>
+              Global Travel communicates the “specials” to the customers
+              whenever the specials are received from the airlines.
+            </p>
+          </div>
+        </div>
+        <button class="program-btn" type="button">
+          Join our Travelers Community
+        </button>
+        <a href="#" class="link">SEE ALL PRODUCTS & SERVICES</a>
+      </section>
+      <section class="featured-speakers">
+        <h3 class="featured-speakers-header">Our customers speak</h3>
+        <hr class="line" />
+        <div id="speakers" class="grid"></div>
+      </section>
+      <section class="partner">
+        <h2 class="partner-header">Partner</h2>
+        <hr class="line line-partner" />
+        <div class="partner-logo">
+          <div class="logo-group-1">
+            <p><span class="logo--1 logo-partner">maxbnb</span></p>
+            <p><span class="logo--3 logo-partner">AGGLOS</span></p>
+            <p><span class="logo--2 logo-partner">RyesAir</span></p>
+            <p><span class="logo--4 logo-partner">Kibira</span></p>
+            <p><span class="logo--5 logo-partner">Ubest</span></p>
+          </div>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <img src="images/company_logo.png" alt="logo-image" />
+      <p>
+        2015 Global Travel Agency <br />
+        Some right reserved
+      </p>
+    </footer>
+    <script type="module" src="javascript/featured_speakers.js"></script>
+    <script type="module" src="javascript/speakers_data.js"></script>
+    <script type="module" src="javascript/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/89144dc9c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
