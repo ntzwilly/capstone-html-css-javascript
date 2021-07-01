@@ -30,8 +30,8 @@ function speakerGenerator(speaker) {
   div.appendChild(speakerName);
   const line = elementGenerator('hr', 'speaker-line', null, null);
   div.appendChild(line);
-  const speakerTitle = elementGenerator('p', 'speaker-title', speaker.title, null);
-  const speakerDescription = elementGenerator('p', 'speaker-description', speaker.comment, null);
+  const speakerTitle = elementGenerator('article', 'speaker-title', speaker.title, null);
+  const speakerDescription = elementGenerator('article', 'speaker-description', speaker.comment, null);
   div.appendChild(speakerTitle);
   div.appendChild(speakerDescription);
 
